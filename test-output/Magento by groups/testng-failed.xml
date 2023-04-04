@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Magento by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-mohammed(failed)">
+    <groups>
+      <run>
+        <include name="mohammed"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Magento_Test">
+        <methods>
+          <include name="PLACE_ORDER"/>
+        </methods>
+      </class> <!-- Magento_Test -->
+    </classes>
+  </test> <!-- GRP-mohammed(failed) -->
+</suite> <!-- Failed suite [Magento by groups] -->
